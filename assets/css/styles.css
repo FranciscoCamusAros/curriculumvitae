@@ -22,3 +22,12 @@ body{
     border-radius:160px;
     border:5px solid rgb(224, 217, 217);
 }
+
+.proyectos{
+    width: 70%;
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
