@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(183, 203, 219);
+}
+
+.portada{
+    background-image: url("../img/cerro.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 727px;
+}
+
+.acercademi{
+    margin: 50px;
+    border: solid 0px #333;
+}
