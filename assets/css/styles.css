@@ -24,10 +24,20 @@ body{
 
 .proyectos{
     background-color: rgb(80, 120, 153);
-    border-top: solid 3px black;
+    border-top: solid 2px black;
 }
 
 .desafios{
     background-color: rgb(80, 120, 153);
-    border-bottom: solid 3px black;
+    border-bottom: solid 2px black;
+}
+
+.fork_compañeros{
+    background-color: rgb(183, 203, 219);
+    border-bottom: solid 2px black;
+}
+
+.contacto{
+    background-color: rgb(80, 120, 153);
+    border-bottom: solid 2px black;
 }
