@@ -12,8 +12,7 @@ body{
 }
 
 .acercademi{
-    margin: 50px;
-    border: solid 0px #333;
+    border-top: solid 3px black;
 }
 
 .foto_acercademi{
@@ -24,10 +23,11 @@ body{
 }
 
 .proyectos{
-    width: 70%;
+    background-color: rgb(80, 120, 153);
+    border-top: solid 3px black;
 }
 
-.carousel-item img{
-    height: 100%;
-    width: 100%;
+.desafios{
+    background-color: rgb(80, 120, 153);
+    border-bottom: solid 3px black;
 }
