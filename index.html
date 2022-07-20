@@ -8,6 +8,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script src="https://kit.fontawesome.com/8dd43581e4.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
 
 </head>
 <body>
@@ -22,10 +24,10 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="#">Acerca de mí</a>
-              <a class="nav-link" href="#">Desafíos</a>
-              <a class="nav-link" href="#">Fork proyectos</a>
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#acerca_nav">Acerca de mí</a>
+              <a class="nav-link" href="#desafios_nav">Desafíos</a>
+              <a class="nav-link" href="#fork_nav">Fork proyectos</a>
+              <a class="nav-link" href="#contacto_nav">Contacto</a>
             </div>
           </div>
         </div>
@@ -34,20 +36,22 @@
 
   <main>
     <section class="portada">
-        <h1 class="display-1 fw-bold p-5 my-5 text-light text-center">Portafolio<br>Francisco Camus Aros</h1>
+        <h1 class="display-1 fw-bold p-5 my-5 text-light text-center"><br>Portafolio<br>Francisco Camus Aros</h1>
     </section>
 
-    <section class="acercademi py-2">
+    <section id="acerca_nav" class="acercademi py-2">
       <div class="container">
-        <h3 class="display-5 fw-bold p-2 text-dark text-center"><u>Acerca de mí</u></h3>
+        <h3 class="display-5 fw-bold p-2 text-center titulo_uno"><u>Acerca de mí</u></h3>
         <div class="row my-5">
           <div class="col-12 col-md-6 text-center">
             <img src="assets/img/franciscocamuscv.jpg" alt="Foto Francisco Camus" class="foto_acercademi">
           </div>
-          <div class="col-12 col-md-6 my-5 fw-normal text-center">
-            <i class="fa-solid fa-user-graduate fa-2x mb-3 mx-3"></i>
-            <i class="fa-solid fa-laptop-code fa-2x mb-3 mx-3"></i>
-            <p>Hola!! Te doy la bienvenida a mi portafolio. Mi nombre es Francisco, soy abogado de la Universidad Diego Portales y ahora estoy estudiando para ser un desarrollador FullStack en Javascript!
+          <div class="col-12 col-md-6 my-3 fw-normal">
+            <div class="text-center">
+              <i class="fa-solid fa-user-graduate fa-2x mb-3 mx-3"></i>
+              <i class="fa-solid fa-laptop-code fa-2x mb-3 mx-3"></i>
+            </div>
+            <p class="p-2 parrafo_acerca">Hola!! Te doy la bienvenida a mi portafolio. Mi nombre es Francisco, soy abogado de la Universidad Diego Portales y ahora estoy estudiando para ser un Desarrollador FullStack en Javascript en la Academia Desafío Latam.
               <br>En este sitio encontrarás todos mis trabajos en el mundo TI. 
               <br>Si te interesan mis trabajos y quieres contactarme, al final de esta página encontrarás un formulario de contacto y mis redes sociales para que podamos conversar.
             </p>
@@ -57,95 +61,50 @@
     </section>
 
     <section class="container-fluid proyectos">
-      <div class="row text-center justify-content-center">
-        <div class="col-12 col-md-10 my-3">
-          <h3 class="display-5 fw-bold p-2 text-dark text-center"><u>Desafíos</u></h3>
-          <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="2000">
-                <img src="assets/img/frontpage_cv.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="bg-dark p-2 text-white">HTML</h5>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="assets/img/frontpage_barrypets.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="bg-dark p-2 text-white">CSS</h5>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="assets/img/frontpage_iguana.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="bg-dark p-2 text-white">Destrezas para igualar otras páginas</h5>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="assets/img/frontpage_cuppon.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="bg-dark p-2 text-white">Bootstrap</h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev btn btn-dark" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next btn btn-dark" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
+      
     </section>
 
-    <section class="desafios p-2">
+    <section id="desafios_nav" class="desafios p-1">
       <div class="container justify-content-center">
         <div class="row gx-3 gy-3 my-3 mx-auto text-center">
+          <h3 class="display-5 fw-bold p-2 text-center titulo_dos"><u>Desafíos</u></h3>
           <div class="col-12 col-md-6 my-2">
             <div class="card border-dark mb-3" style="width: 100%;">
-              <img src="assets/img/frontpage_cv.png" class="card-img-top" alt="...">
+              <img src="assets/img/frontpage_cv.png" class="card-img-top" alt="Front page desafío 1">
               <div class="card-body">
                 <h5 class="card-title">Desafío 1</h5>
                 <p class="card-text">En mi primer desafío tuve que ocupar las herramientas de HTML para realizar un Currículum Vitae.</p>
-                <a href="https://franciscocamusaros.github.io/desafio_1_CV/" class="btn btn-primary" target="_blank" rel="noopenernoreferrer">Ir al CV</a> <a href="https://github.com/FranciscoCamusAros/desafio_1_CV" class="btn btn-primary" target="_blank" rel="noopenernoreferrer">Ir al repositorio</a>
+                <a href="https://franciscocamusaros.github.io/desafio_1_CV/" class="btn botones" target="_blank" rel="noopenernoreferrer">Ir al CV</a> <a href="https://github.com/FranciscoCamusAros/desafio_1_CV" class="btn botones" target="_blank" rel="noopenernoreferrer">Ir al repositorio</a>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 my-2">
             <div class="card border-dark mb-3" style="width: 100%;">
-              <img src="assets/img/frontpage_barrypets.png" class="card-img-top" alt="...">
+              <img src="assets/img/frontpage_barrypets.png" class="card-img-top" alt="Front page desafío 2">
               <div class="card-body">
                 <h5 class="card-title">Desafío 2</h5>
                 <p class="card-text">En este desafío tuve que ocupar CSS para realizar una landing page, el cual realicé en base a un emprendimiento de mascotas.</p>
-                <a href="https://franciscocamusaros.github.io/desafio_2_landingpage/" class="btn btn-primary" target="_blank" rel="noopenernoreferrer">Ir a BarryPets</a> <a href="https://github.com/FranciscoCamusAros/desafio_2_landingpage" class="btn btn-primary" target="_blank" rel="noopenernoreferrer">Ir al repositorio</a>
+                <a href="https://franciscocamusaros.github.io/desafio_2_landingpage/" class="btn botones" target="_blank" rel="noopenernoreferrer">Ir a BarryPets</a> <a href="https://github.com/FranciscoCamusAros/desafio_2_landingpage" class="btn botones" target="_blank" rel="noopenernoreferrer">Ir al repositorio</a>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 my-2">
             <div class="card border-dark mb-3" style="width: 100%;">
-              <img src="assets/img/frontpage_iguana.png" class="card-img-top" alt="...">
+              <img src="assets/img/frontpage_iguana.png" class="card-img-top" alt="Front page página desafío 3">
               <div class="card-body">
                 <h5 class="card-title">Desafío 3</h5>
                 <p class="card-text">En el tercer desafío, validé mis conocimientos de posicionamiento con reglas de CSS.</p>
-                <a href="https://franciscocamusaros.github.io/desafio_3_iguana/" class="btn btn-primary" target="_blank" rel="noopenernoreferrer">Ir a la página de Iguanas</a> <a href="https://github.com/FranciscoCamusAros/desafio_3_iguana" class="btn btn-primary" target="_blank" rel="noopenernoreferrer">Ir al repositorio</a>
+                <a href="https://franciscocamusaros.github.io/desafio_3_iguana/" class="btn botones" target="_blank" rel="noopenernoreferrer">Ir a la página de Iguanas</a> <a href="https://github.com/FranciscoCamusAros/desafio_3_iguana" class="btn botones" target="_blank" rel="noopenernoreferrer">Ir al repositorio</a>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 my-2 mx-auto">
             <div class="card border-dark mb-3" style="width: 100%;">
-              <img src="assets/img/frontpage_cuppon.png" class="card-img-top" alt="...">
+              <img src="assets/img/frontpage_cuppon.png" class="card-img-top" alt="Front page desafío 4">
               <div class="card-body">
                 <h5 class="card-title">Desafío 4</h5>
                 <p class="card-text">En el cuarto desafío, aprendí a ocupar bootstrap y lo utilicé para hacer una página de cupones.</p>
-                <a href="https://franciscocamusaros.github.io/desafio_4_bootstrap/" class="btn btn-primary" target="_blank" rel="noopenernoreferrer">Ir a Cuppon</a> <a href="https://github.com/FranciscoCamusAros/desafio_4_bootstrap" class="btn btn-primary" target="_blank" rel="noopenernoreferrer">Ir al repositorio</a>
+                <a href="https://franciscocamusaros.github.io/desafio_4_bootstrap/" class="btn botones" target="_blank" rel="noopenernoreferrer">Ir a Cuppon</a> <a href="https://github.com/FranciscoCamusAros/desafio_4_bootstrap" class="btn botones" target="_blank" rel="noopenernoreferrer">Ir al repositorio</a>
               </div>
             </div>
           </div>
@@ -153,43 +112,50 @@
       </div>
     </section>
 
-    <section class="fork_compañeros">
+    <section id="fork_nav" class="fork_compañeros">
       <section class="p-2">
-        <h3 class="display-5 fw-bold p-2 text-dark text-center">Fork a repositorios de estudiantes</h3>
-        <div class="container justify-content-center">
-          <div class="row gx-3 gy-3 my-3 mx-auto text-center">
-            <div class="col-12 col-md-6 my-2">
-              <div class="card border-dark mb-3" style="width: 100%;">
-                <img src="assets/img/ton_0160.png" class="card-img-top" alt="perfil ton0160 en github">
-                <div class="card-body">
-                  <h5 class="card-title">Fork a ton0160</h5>
-                  <p class="card-text">Hice un cambio en el color de fondo de su CV.</p>
-                  <a href="https://github.com/FranciscoCamusAros/fork_ton0160" class="btn btn-primary" target="_blank" rel="noopenernoreferrer">Ir al Repositorio</a>
-                </div>
+        <div class="row text-center justify-content-center">
+          <div class="col-12 col-md-6 my-3">
+            <h3 class="display-5 fw-bold p-2 m-4 text-center titulo_uno"><u>Fork a repositorios de estudiantes</u></h3>
+            <div id="carouselExampleCaptions" class="carousel carousel-dark slide mb-4" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               </div>
-            </div>
-            <div class="col-12 col-md-6 my-2">
-              <div class="card border-dark mb-3" style="width: 100%;">
-                <img src="assets/img/frontpage_marlys.png" class="card-img-top" alt="front page pagina Marlys">
-                <div class="card-body">
-                  <h5 class="card-title">Fork a Marlys-Aguila</h5>
-                  <p class="card-text">Realicé un cambio en color de fondo para diferenciar secciones.</p>
-                  <a href="https://github.com/FranciscoCamusAros/fork_Marlys" class="btn btn-primary" target="_blank" rel="noopenernoreferrer">Ir al Repositorio</a>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                  <a href="https://github.com/FranciscoCamusAros/fork_ton0160" target="_blank" rel="noopenernoreferrer"><img src="assets/img/ton_0160.png" class="d-block w-100" alt="Front page ton0160"></a>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="p-2 text-white fondo_carousel"><a href="https://github.com/FranciscoCamusAros/fork_ton0160" class="links" target="_blank" rel="noopenernoreferrer">Fork a ton0160</a></h5>
+                  </div>
                 </div>
-              </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <a href="https://github.com/FranciscoCamusAros/fork_Marlys" target="_blank" rel="noopenernoreferrer"><img src="assets/img/frontpage_marlys.png" class="d-block w-100" alt="Front page Marlys-Aguila"></a>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="p-2 text-white fondo_carousel"><a href="https://github.com/FranciscoCamusAros/fork_Marlys" class="links" target="_blank" rel="noopenernoreferrer">Fork a Marlys-Aguila</a></h5>
+                  </div>
+                </div>
+              <button class="carousel-control-prev btn" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next btn" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
       </section>
     </section>
 
-    <section class="contacto">
+    <section id="contacto_nav" class="contacto">
       <section id="Contacto" class="container">
         <div class="row">
           <div class="col-12 col-md-6 pt-5">
-            <h2 class="display-5 fw-bold py-2 text-light text-center"><u>Contáctame</u></h2>
-            <p class="bg-light opacity-75 text-center my-4">Espero te haya interesado todo lo que has visto hasta aquí.
-              Sí tienes alguna duda, envíame un mensaje por este formulario o contactémonos a través de <a href="https://www.linkedin.com/in/franciscocamusaros/" target="_blank" rel="noopenernoreferrer">Linkedin.</a>
+            <h2 class="display-5 fw-bold py-2 text-center titulo_dos"><u>Contáctame</u></h2>
+            <p class="bg-light opacity-75 text-center my-4" style="font-size: large;">Espero te haya interesado todo lo que has visto hasta aquí.
+              Sí tienes alguna duda, envíame un mensaje por este formulario o hablemos a través de: <br><a href="https://www.linkedin.com/in/franciscocamusaros/" target="_blank" rel="noopenernoreferrer" style="font-size: x-large;"><i class="fa-brands fa-2x fa-linkedin"></i> Linkedin.</a>
             </p>
           </div>
           <div class="col-12 col-md-6 pt-4">
@@ -207,7 +173,7 @@
                     <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
                 </div>
                 <div class="my-3 text-end">
-                    <button class="btn btn-primary text-light">Enviar</button>
+                    <button class="btn botones_dos text-light">Enviar</button>
                 </div>
             </form>
           </div>

@@ -22,6 +22,11 @@ body{
     border:5px solid rgb(224, 217, 217);
 }
 
+.parrafo_acerca{
+    font-size: large; 
+    border-top:2px solid rgb(34, 51, 71);
+}
+
 .proyectos{
     background-color: rgb(80, 120, 153);
     border-top: solid 2px black;
@@ -40,4 +45,30 @@ body{
 .contacto{
     background-color: rgb(80, 120, 153);
     border-bottom: solid 2px black;
+}
+
+.titulo_uno{
+    color: rgb(34, 51, 71);
+}
+
+.titulo_dos{
+    color: rgb(244, 247, 255);
+}
+
+.fondo_carousel{
+    background-color: rgb(34, 51, 71);
+}
+
+.links{
+    color: white;
+}
+
+.botones{
+    background-color: rgb(80, 120, 153);
+    color: white;
+}
+
+.botones_dos{
+    background-color: rgb(34, 51, 71);
+    color: white;
 }
