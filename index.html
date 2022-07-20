@@ -12,7 +12,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="assets/img/LogoFcoCamusblanco.png" alt="logo blanco" width="220" height="40" class="d-inline-block align-text-top">
@@ -34,7 +34,7 @@
 
   <main>
     <section class="portada">
-        <h1 class="display-1 fw-bold p-5 text-light text-center">Portafolio<br>Francisco Camus Aros</h1>
+        <h1 class="display-1 fw-bold p-5 my-5 text-light text-center">Portafolio<br>Francisco Camus Aros</h1>
     </section>
 
     <section class="acercademi py-2">
@@ -57,10 +57,10 @@
     </section>
 
     <section class="container-fluid proyectos">
-      <div class="row justify-content-center">
+      <div class="row text-center justify-content-center">
         <div class="col-12 col-md-10 my-3">
           <h3 class="display-5 fw-bold p-2 text-dark text-center"><u>Desafíos</u></h3>
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -68,25 +68,25 @@
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="2000">
                 <img src="assets/img/frontpage_cv.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 class="bg-dark p-2 text-white">HTML</h5>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img src="assets/img/frontpage_barrypets.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 class="bg-dark p-2 text-white">CSS</h5>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img src="assets/img/frontpage_iguana.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 class="bg-dark p-2 text-white">Destrezas para igualar otras páginas</h5>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img src="assets/img/frontpage_cuppon.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 class="bg-dark p-2 text-white">Bootstrap</h5>
@@ -155,26 +155,26 @@
 
     <section class="fork_compañeros">
       <section class="p-2">
-        <h3 class="display-5 fw-bold p-2 text-dark text-center">Fork a otros repositorios</h3>
+        <h3 class="display-5 fw-bold p-2 text-dark text-center">Fork a repositorios de estudiantes</h3>
         <div class="container justify-content-center">
           <div class="row gx-3 gy-3 my-3 mx-auto text-center">
             <div class="col-12 col-md-6 my-2">
               <div class="card border-dark mb-3" style="width: 100%;">
-                <img src="assets/img/frontpage_cv.png" class="card-img-top" alt="...">
+                <img src="assets/img/ton_0160.png" class="card-img-top" alt="perfil ton0160 en github">
                 <div class="card-body">
-                  <h5 class="card-title">Desafío 1</h5>
-                  <p class="card-text">En mi primer desafío tuve que ocupar las herramientas de HTML para realizar un Currículum Vitae.</p>
-                  <a href="#" class="btn btn-primary">Ir al CV</a> <a href="#" class="btn btn-primary">Ir al repositorio</a>
+                  <h5 class="card-title">Fork a ton0160</h5>
+                  <p class="card-text">Hice un cambio en el color de fondo de su CV.</p>
+                  <a href="https://github.com/FranciscoCamusAros/fork_ton0160" class="btn btn-primary" target="_blank" rel="noopenernoreferrer">Ir al Repositorio</a>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-6 my-2">
               <div class="card border-dark mb-3" style="width: 100%;">
-                <img src="assets/img/frontpage_barrypets.png" class="card-img-top" alt="...">
+                <img src="assets/img/frontpage_marlys.png" class="card-img-top" alt="front page pagina Marlys">
                 <div class="card-body">
-                  <h5 class="card-title">Desafío 2</h5>
-                  <p class="card-text">En este desafío tuve que ocupar CSS para realizar una landing page, el cual realicé en base a un emprendimiento de mascotas.</p>
-                  <a href="#" class="btn btn-primary">Ir a BarryPets</a> <a href="#" class="btn btn-primary">Ir al repositorio</a>
+                  <h5 class="card-title">Fork a Marlys-Aguila</h5>
+                  <p class="card-text">Realicé un cambio en color de fondo para diferenciar secciones.</p>
+                  <a href="https://github.com/FranciscoCamusAros/fork_Marlys" class="btn btn-primary" target="_blank" rel="noopenernoreferrer">Ir al Repositorio</a>
                 </div>
               </div>
             </div>
@@ -185,27 +185,33 @@
 
     <section class="contacto">
       <section id="Contacto" class="container">
-        <h2 class="display-5 fw-bold py-2 text-dark text-center"><u>Contáctame</u></h2>
-        <p class="bg-light opacity-75 text-center my-4">Espero te haya interesado todo lo que has visto hasta aquí.
-          Sí tienes alguna duda, envíame un mensaje por este formulario o contactémonos a través de <a href="https://www.linkedin.com/in/franciscocamusaros/" target="_blank" rel="noopenernoreferrer">Linkedin.</a>
-        </p>
-        <form>
-            <div class="form-group mb-4">
-                <label class="mb-2">Nombre</label>
-                <input class="form-control" placeholder="Nombre">
-            </div>
-            <div class="form-group mb-4">
-                <label class="mb-2">Correo electrónico</label>
-                <input class="form-control" placeholder="Correo electrónico" />
-            </div>
-            <div class="form-group">
-                <label class="mb-2">Mensaje</label>
-                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
-            </div>
-            <div class="my-3 text-end">
-                <button class="btn btn-primary text-light">Enviar</button>
-            </div>
-        </form>
+        <div class="row">
+          <div class="col-12 col-md-6 pt-5">
+            <h2 class="display-5 fw-bold py-2 text-light text-center"><u>Contáctame</u></h2>
+            <p class="bg-light opacity-75 text-center my-4">Espero te haya interesado todo lo que has visto hasta aquí.
+              Sí tienes alguna duda, envíame un mensaje por este formulario o contactémonos a través de <a href="https://www.linkedin.com/in/franciscocamusaros/" target="_blank" rel="noopenernoreferrer">Linkedin.</a>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 pt-4">
+            <form>
+                <div class="form-group mb-4">
+                    <label class="mb-2 fw-bold">Nombre:</label>
+                    <input class="form-control" placeholder="Nombre">
+                </div>
+                <div class="form-group mb-4">
+                    <label class="mb-2 fw-bold">Correo electrónico:</label>
+                    <input class="form-control" placeholder="Correo electrónico" />
+                </div>
+                <div class="form-group">
+                    <label class="mb-2 fw-bold">Mensaje:</label>
+                    <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+                </div>
+                <div class="my-3 text-end">
+                    <button class="btn btn-primary text-light">Enviar</button>
+                </div>
+            </form>
+          </div>
+        </div>
       </section>
     </section>
 
